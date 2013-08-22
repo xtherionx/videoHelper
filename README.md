@@ -1,7 +1,7 @@
 <h1>videoHelper</h1>
 
 
-Put a video in fullscreen landscape mode
+Put a video in fullscreen landscape mode, you need to add the MediaPlayer framework to your app
 
 <h2>How to use</h2>
 
