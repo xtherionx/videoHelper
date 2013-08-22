@@ -10,6 +10,8 @@
 #import "videoHelper.h"
 #import <MediaPlayer/MediaPlayer.h>
 
+
+
 @implementation videoHelper
 
 @synthesize videoFormat;
@@ -82,6 +84,16 @@
     else {
         return CGRectMake(0, 0, square.width, square.height);
     }
+}
+
+
+-(UIButton *)putButtonOverVideo:(NSString *)imageName inX:(int)coordX andY:(int) coordY{
+    UIImage *buttonImage = [UIImage imageNamed:imageName];
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button setImage:buttonImage forState:UIControlStateNormal];
+    [button setFrame:CGRectMake(coordX, coordY, buttonImage.size.width, buttonImage.size.height)];
+    [video.view addSubview:button];
+    return button;
 }
 
 @end

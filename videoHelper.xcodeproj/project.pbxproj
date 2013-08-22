@@ -14,8 +14,6 @@
 		494616A517BBE23400A4A481 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494616A417BBE23400A4A481 /* UIKit.framework */; };
 		494616A617BBE23400A4A481 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4946169317BBE23400A4A481 /* Foundation.framework */; };
 		494616A917BBE23400A4A481 /* libvideoHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4946169017BBE23400A4A481 /* libvideoHelper.a */; };
-		494616AF17BBE23400A4A481 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 494616AD17BBE23400A4A481 /* InfoPlist.strings */; };
-		494616B217BBE23400A4A481 /* videoHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494616B117BBE23400A4A481 /* videoHelperTests.m */; };
 		494616BC17BBE2C000A4A481 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494616BB17BBE2C000A4A481 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,10 +49,6 @@
 		494616A117BBE23400A4A481 /* videoHelperTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = videoHelperTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		494616A217BBE23400A4A481 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		494616A417BBE23400A4A481 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		494616AC17BBE23400A4A481 /* videoHelperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "videoHelperTests-Info.plist"; sourceTree = "<group>"; };
-		494616AE17BBE23400A4A481 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		494616B017BBE23400A4A481 /* videoHelperTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = videoHelperTests.h; sourceTree = "<group>"; };
-		494616B117BBE23400A4A481 /* videoHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = videoHelperTests.m; sourceTree = "<group>"; };
 		494616BB17BBE2C000A4A481 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -87,7 +81,6 @@
 			children = (
 				494616BB17BBE2C000A4A481 /* MediaPlayer.framework */,
 				4946169517BBE23400A4A481 /* videoHelper */,
-				494616AA17BBE23400A4A481 /* videoHelperTests */,
 				4946169217BBE23400A4A481 /* Frameworks */,
 				4946169117BBE23400A4A481 /* Products */,
 			);
@@ -126,25 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				4946169717BBE23400A4A481 /* videoHelper-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		494616AA17BBE23400A4A481 /* videoHelperTests */ = {
-			isa = PBXGroup;
-			children = (
-				494616B017BBE23400A4A481 /* videoHelperTests.h */,
-				494616B117BBE23400A4A481 /* videoHelperTests.m */,
-				494616AB17BBE23400A4A481 /* Supporting Files */,
-			);
-			path = videoHelperTests;
-			sourceTree = "<group>";
-		};
-		494616AB17BBE23400A4A481 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				494616AC17BBE23400A4A481 /* videoHelperTests-Info.plist */,
-				494616AD17BBE23400A4A481 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -220,7 +194,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				494616AF17BBE23400A4A481 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +228,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				494616B217BBE23400A4A481 /* videoHelperTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,17 +240,6 @@
 			targetProxy = 494616A717BBE23400A4A481 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		494616AD17BBE23400A4A481 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				494616AE17BBE23400A4A481 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		494616B317BBE23400A4A481 /* Debug */ = {

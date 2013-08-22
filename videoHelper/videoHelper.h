@@ -13,6 +13,9 @@
 -(id)init;
 -(id)initWithFormat:(NSString *)formatVideo;
 -(void)putVideoInViewcontroller:(UIViewController *)currentView andVideo:(NSString *)videoName;
+
+-(UIButton *)putButtonOverVideo:(NSString *)imageName inX:(int)coordX andY:(int) coordY;
+
 @property (copy, nonatomic) NSString * videoFormat;
 @property (nonatomic) BOOL videoControls;
 @property (weak, nonatomic) UIViewController* videoView;
