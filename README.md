@@ -11,7 +11,7 @@ Put a video in fullscreen landscape mode
 @property videoHelper *video </li>
 <li> In the ViewController body init the property and then pass the object and the video name: <br />
 video = [[videoHelper alloc]initWithFormat:@"mp4"]; <br />
-[test putVideoInViewcontroller:self andVideo:@"video_1"];  <br />
+[video putVideoInViewcontroller:self andVideo:@"video_1"];  <br />
 </li>
 
 </ol>
