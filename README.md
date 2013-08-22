@@ -18,6 +18,6 @@ video = [[videoHelper alloc]initWithFormat:@"mp4"]; <br />
 
 <h3>Add a button over the video</h3>
 
-To add a button over the video add the file to your app bundle, and call:
+To add a custom button over the video add the image file to your app bundle, and call:
 
 [video putButtonOverVideo:@"videoName.png" inX:100 andY:120];
